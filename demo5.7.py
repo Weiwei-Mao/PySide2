@@ -8,6 +8,7 @@ Email : weimao@whu.edu.cn
 from PySide2.QtWidgets import QApplication, QLineEdit
 from PySide2.QtUiTools import QUiLoader
 from PySide2.QtGui import QIntValidator
+from PySide2.QtGui import QPixmap, QIcon
 
 
 class DeMo:
@@ -19,6 +20,9 @@ class DeMo:
         # 注意：里面的控件对象也成为窗口对象的属性了
         # 比如 self.ui.button , self.ui.textEdit
         self.ui = QUiLoader().load('ui/demo5.7.ui')
+
+        self.ui.pushButton_1.setIcon(QIcon(QPixmap('image/login.ico')))
+        self.ui.pushButton_2.setIcon(QIcon(QPixmap('image/exit.ico')))
 
         self.ui.lineEdit_2.setValidator(QIntValidator(10000000, 99999999))
         self.ui.pushButton_1.clicked.connect(self.login)

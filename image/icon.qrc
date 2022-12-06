@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="png57">
+    <file>exit.ico</file>
+    <file>login.ico</file>
+  </qresource>
+</RCC>

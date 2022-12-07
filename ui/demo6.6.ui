@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>471</width>
+    <height>361</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <property name="tabKeyNavigation">
+      <bool>false</bool>
+     </property>
+     <property name="alternatingRowColors">
+      <bool>true</bool>
+     </property>
+     <property name="textElideMode">
+      <enum>Qt::ElideRight</enum>
+     </property>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="columnCount">
+      <number>2</number>
+     </property>
+     <column>
+      <property name="text">
+       <string notr="true">姓名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>职务</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>组织结构</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>任正非</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../image/logo.qrc">
+         <normaloff>:/png/华为.jpg</normaloff>:/png/华为.jpg</iconset>
+       </property>
+       <property name="text">
+        <string>华为董事长</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>马云</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../image/logo.qrc">
+         <normaloff>:/png/阿里巴巴.jpg</normaloff>:/png/阿里巴巴.jpg</iconset>
+       </property>
+       <property name="text">
+        <string>阿里巴巴创始人</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>马化腾</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../image/logo.qrc">
+         <normaloff>:/png/腾讯.png</normaloff>:/png/腾讯.png</iconset>
+       </property>
+       <property name="text">
+        <string>腾讯CEO</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>李彦宏</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../image/logo.qrc">
+         <normaloff>:/png/百度.jpg</normaloff>:/png/百度.jpg</iconset>
+       </property>
+       <property name="text">
+        <string>百度CEO</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>董明珠</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../image/logo.qrc">
+         <normaloff>:/png/格力.jpeg</normaloff>:/png/格力.jpeg</iconset>
+       </property>
+       <property name="text">
+        <string>格力董事长</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../image/logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

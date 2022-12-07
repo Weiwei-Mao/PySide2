@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="png">
+    <file>阿里巴巴.jpg</file>
+    <file>百度.jpg</file>
+    <file>格力.jpeg</file>
+    <file>华为.jpg</file>
+    <file>明日科技.jpg</file>
+    <file>腾讯.png</file>
+  </qresource>
+</RCC>
